@@ -1,0 +1,116 @@
+html{
+	background-color: #000025;
+}
+img.header_menu_icon {
+	height:30px;
+}
+img.header_img {
+	height:60px;
+}
+.header_menu_icon:hover, .header_img:hover {
+	animation-name: change;
+	transform: scale(1.05, 1.05);
+}
+a.no_underline {
+	text-decoration: none;
+	color: #ffffff;
+}
+table.main_header {
+	background-color:#000025;
+	font-size:30px;
+	color: #FFFFFF;
+	width: 100%;
+	height:60px;
+	text-align: center;
+	position: fixed;
+	top: 0px;
+}
+.main_header_cell:hover {
+	animation-name: change;
+	background-color: #000030;
+}
+
+h1 {
+	text-align: center;
+	color: #ffffff;
+	text-decoration: underline;
+	font-size: 100px;
+}
+
+h2 {
+	color: #000000;
+	background-color: #cccccc;
+	text-align: left;
+	font-size: 50px;
+}
+p {
+	font-size: 25px;
+	color: white;
+}
+.space {
+	width: 50px;
+}
+.right_align {
+	float: right;
+	color: white;
+	font-size: 20px;
+}
+img.image {
+	width: 70%;
+}
+.white_text {
+	color: white;
+}
+.font:hover {
+	animation-name: change;
+	color: #000088;
+}
+.transform:hover {
+	animation-name: change;
+	transform: scale(1.02, 1.02);
+}
+table.page_data {
+	background-color: #5F5F5F;
+}
+.font {
+	font-size: 20px;
+	color: #ffffff;
+}
+.center_align {
+	text-align: center;
+}
+
+.lesson {
+	color: #FFFFFF; 
+	font-weight: bold;
+	font-style: oblique;
+	background-color: #000025;
+	border-radius: 2px;
+}
+button {
+	color: #ffffff; 
+	font-weight: bold;
+	font-style: oblique;
+	background-color: #000025;
+	border-radius: 20px;
+	width: 250px;
+}
+table.button {
+	width:100%;
+}
+td.right {
+	text-align:right;
+}
+.button_span {
+	width:1900px;
+}
+table.footer {
+	background-color: #000025;
+	color: #FFFFFF;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+img.footer_img {
+	height: 80px;
+}
